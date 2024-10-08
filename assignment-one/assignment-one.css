@@ -1,0 +1,164 @@
+/* Text and Body CSS*/
+
+body,
+html {
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times;
+    color: #1a1a50;
+}
+
+hr {
+    width: 232px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 28pt;
+    margin-bottom: 10pt;
+}
+
+h3 {
+    font-size: 20pt;
+    margin-bottom: 8pt;
+}
+
+p {
+    font-size: 11pt;
+    color: #111111;
+}
+
+/*button styling*/
+
+.navbar {
+    background-color: #fff;
+    border: none;
+    color: #1a1a50;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+.darkbutt {
+    background-color: #1a1a50;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+.lightbutt {
+    background-color: white;
+    color: #1a1a50;
+    padding: 3px 13px;
+    border-color: #1a1a50;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+/*nav bar*/
+
+nav {
+    float: right;
+}
+
+/* hero image */
+
+.hero-image {
+    background-image: url(assets/banner-img.jpg);
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*maincard*/
+
+.maincard {
+    text-align: center;
+}
+
+/*card one and three*/
+.card-one,
+.card-three {
+    display: flex;
+}
+
+.img1,
+.img3 {
+    margin: 20px;
+    padding: 0;
+}
+
+.text1,
+.text3 {
+    text-align: right;
+}
+
+/*card two and four*/
+.card-two,
+.card-four {
+    display: flex;
+}
+
+.img2,
+.img4 {
+    margin: 20px;
+    padding: 0;
+}
+
+.text2,
+.text4 {
+    text-align: left;
+}
+
+/* footer */
+
+footer {
+    background-color: #eee;
+    font-size: 7px;
+    width: 100%;
+    height: 118px;
+    padding 0;
+    margin 0;
+}
+
+.address {
+    float:left;
+    background-color: #eee;
+}
+
+.cartandpay {
+    float:right;
+    text-align:right;
+    background-color: #eee;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #eee;
+    padding 0;
+    margin 0;
+}
