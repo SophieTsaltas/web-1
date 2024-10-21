@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#particles-js canvas {
+    position: absolute;
+    height: 100%;
+    background: #581b1b;
+    z-index: -1;
+}
+
+.welcome {
+    position: fixed;
+    margin-left: 20%;
+    display: block;
+    height: 100%;
+    width: 60%;
+    background-color: #f9dcdc;
+    text-align: center;
+    color: #581b1b;
+    font-family: "ivyepic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+p {
+    margin: 10%;
+}
+a:link,
+a:visited {
+    background-color: #581b1b;
+    color: white;
+    padding: 14px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover,
+a:active {
+    background-color: #a25252;
+    color: #581b1b;
+}
