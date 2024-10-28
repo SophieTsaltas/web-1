@@ -1,0 +1,96 @@
+body {
+    background-color: oldlace;
+}
+
+#mySidenav button {
+    border: none;
+    position: fixed;
+    left: -200px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 250px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: oldlace;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav button:hover {
+    left: 0;
+}
+
+#p1 {
+    top: 20px;
+    background-color: purple;
+    font-family: "Lato", sans-serif;
+}
+
+#p2 {
+    top: 80px;
+    background-color: blue;
+    font-family: "Playwrite GB S", cursive;
+}
+
+#p3 {
+    top: 140px;
+    background-color: darkcyan;
+    font-family: "Danfo", serif;
+}
+
+#p4 {
+    top: 200px;
+    background-color: darkgreen;
+    font-family: "Bona Nova SC", serif;
+}
+
+#p5 {
+    top: 260px;
+    background-color: green;
+    font-family: "Kablammo", system-ui;
+}
+
+#p6 {
+    top: 320px;
+    background-color: darkgoldenrod;
+    font-family: "Spicy Rice", serif;
+}
+
+#p7 {
+    top: 380px;
+    background-color: darkorange;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+#p8 {
+    top: 440px;
+    background-color: orangered;
+    font-family: "Rye", serif;
+}
+
+#p9 {
+    top: 500px;
+    background-color: crimson;
+    font-family: "Rubik Microbe", system-ui;
+}
+
+p {
+    text-align: right;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+
+#more1,
+#more2,
+#more3,
+#more4,
+#more5,
+#more6,
+#more7,
+#more8,
+#more9 {
+    display: none;
+}
