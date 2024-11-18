@@ -1,0 +1,53 @@
+.green-container {
+    background-color: green;
+    width: 600px;
+    height: 460px;
+    border : 4px solid #FF0000;
+    border-radius: 16px;
+    margin:25px;
+}
+
+.yellow-container {
+    background-color: yellow;
+    width:700px;
+    height:750px;
+    border: 2px solid #FF0000;
+    border-radius: 16px;
+}
+
+.box-one {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 6px;
+}
+
+.box-two {
+    background-color: blue;
+    color:white;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin: 25px;
+    border-radius: 6px;
+}
+
+.box-three {
+    background-color: orange;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 6px;
+}
+.box-four {
+    background-color: red;
+    color:white;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin: 25px;
+    border-radius: 6px;
+}
