@@ -1,0 +1,60 @@
+.yellow-container{
+    background-color: yellow;
+    border: solid red;
+    width: 600px;
+    height: 2000px;
+}
+
+.first-box{
+   background-image: url(Assets/doggonomnom.jpg);
+    width:450px;
+    height:300px;
+    margin:120px auto;
+}
+
+.second-box{
+
+   background-image: url(Assets/doggonomnom.jpg);
+    background-size: 200px;
+    background-repeat:repeat;
+    width: 450px;
+    height: 300px;
+    margin: 80px auto;
+}
+    
+.third-box {
+
+   background-image: url(Assets/doggonomnom.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position:right center;
+    background-color: lightblue;
+    width: 450px;
+    height: 300px;
+    margin: 80px auto;
+    }
+
+.fourth-box{
+    width: 450px;
+    height: 300px;
+    margin: 80px auto;
+    background-color: lightblue;
+    object-fit: fill;
+}
+
+.fourth-img{
+    width: 450px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.fifth-box{
+    width: 450px;
+    margin: 80px auto;
+    background-color: lightblue;
+}
+
+.fifth-img{
+    width:450px;
+    object-position:0 40px;
+}
