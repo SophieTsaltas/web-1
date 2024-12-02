@@ -1,0 +1,71 @@
+html, body {
+    background-color: yellow;
+    text-align: center
+}
+.one {
+    background-color:limegreen;
+    height:200px;
+    margin:20px;
+}
+
+#one-one{
+    background-color: aqua;
+    height:150px;
+    width:150px;
+    float:left;
+    margin:20px;
+}
+#one-two{
+    background-color: rosybrown;
+    height:150px;
+    width:150px;
+    float:right;
+    margin:20px;
+}
+.two {
+    background-color:cadetblue;
+    height: 360px;
+    margin: 20px;
+}
+#two-one{
+    background-color: antiquewhite;
+    height:150px;
+    width:150px;
+    float:left;
+    margin:20px;
+}
+#two-two {
+    background-color: black;
+    height:150px;
+    width:150px;
+    float:right;
+    margin:20px;
+    color:white
+    }
+#two-three{
+    background-color: darkorange;
+    height:150px;
+    clear: both;
+    margin:20px;
+}
+
+.three{
+    background-color: saddlebrown;
+    color:white;
+    font-size: large;
+    text-align: left;
+    margin: 20px;
+}
+
+#three-one{
+    background-color: purple;
+    height:150px;
+    width:150px;
+    float:left;
+    margin:20px;
+}
+
+p{
+    margin:20px;
+    padding:20px;
+}
